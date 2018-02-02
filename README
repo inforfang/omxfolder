@@ -5,6 +5,10 @@ in directory.
 omxfolder has been developed to solve this issue and to play files in a 
 folder or recusively in folders using omxplayer. 
 
+Installation : 
+
+	1. git clone https://github.com/inforfang/omxfolder.git 
+	2. ln -s path_to_omxfolder.py /usr/local/bin/omxfolder.py
 
 Usage :
 
@@ -18,3 +22,4 @@ Usage :
                   -r    Recursive
                   -s    Shuffle
                   -l    Only prints files
+
