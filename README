@@ -5,6 +5,12 @@ in directory.
 omxfolder has been developed to solve this issue and to play files in a 
 folder or recusively in folders using omxplayer. 
 
+Features : 
+
+	-	Play files in folder  
+	-	Play files recusively in folder
+	-	Play file in shuffle mode
+
 Installation : 
 	
 	0. sudo apt install omxplayer
