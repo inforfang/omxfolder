@@ -1,0 +1,20 @@
+omxplayer is the main music and video player for RasberryPi. It's stable
+and supports lots of files. omxplayer doesn't have option for playing files 
+in directory. 
+
+omxfolder has been developed to solve this issue and to play files in a 
+folder or recusively in folders using omxplayer. 
+
+
+Usage :
+
+		omxfolder.py [OPTION] DIR
+
+        Example : omxfolder.py /home/Music
+        Example : omxfolder.py -s .
+        Example : omxfolder.py -s -r ~/Music
+
+        OPTIONS :
+                  -r    Recursive
+                  -s    Shuffle
+                  -l    Only prints files
